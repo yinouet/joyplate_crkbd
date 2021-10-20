@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name FFCConn)(type KiCad)(uri ${KIPRJMOD}/FFCConn.pretty)(options "")(descr ""))
+  (lib (name kbd)(type KiCad)(uri /Users/yino/Downloads/kbd-f90510c11b6df53bcdb55740b0d59183957e4036/kicad-footprints/kbd.pretty)(options "")(descr ""))
+)

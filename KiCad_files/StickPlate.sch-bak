@@ -1,0 +1,172 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 60E52190
+P 2800 2700
+F 0 "J2" H 2880 2742 50  0000 L CNN
+F 1 "Conn_01x05" H 2880 2651 50  0000 L CNN
+F 2 "FFCConn:uxcell_FFC_Connector_1x5_P0" H 2800 2700 50  0001 C CNN
+F 3 "~" H 2800 2700 50  0001 C CNN
+	1    2800 2700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2600 2700
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 60E52E78
+P 2000 1600
+F 0 "J1" H 1918 1175 50  0000 C CNN
+F 1 "Conn_01x04" H 1918 1266 50  0000 C CNN
+F 2 "FFCConn:PAD_4P" H 2000 1600 50  0001 C CNN
+F 3 "~" H 2000 1600 50  0001 C CNN
+	1    2000 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 1800 2200 2900
+Wire Wire Line
+	2200 2900 2600 2900
+Wire Wire Line
+	2600 2600 1900 2600
+Wire Wire Line
+	1900 2600 1900 1800
+Wire Wire Line
+	2600 2500 2100 2500
+Wire Wire Line
+	2100 2500 2100 1800
+Wire Wire Line
+	2600 2800 2000 2800
+Wire Wire Line
+	2000 2800 2000 1800
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 60E4FE50
+P 4700 2600
+F 0 "J?" H 4780 2642 50  0000 L CNN
+F 1 "Conn_01x05" H 4780 2551 50  0000 L CNN
+F 2 "FFCConn:uxcell_FFC_Connector_1x5_P0" H 4700 2600 50  0001 C CNN
+F 3 "~" H 4700 2600 50  0001 C CNN
+	1    4700 2600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4500 2600
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 60E4FE57
+P 3900 1500
+F 0 "J?" H 3818 1075 50  0000 C CNN
+F 1 "Conn_01x04" H 3818 1166 50  0000 C CNN
+F 2 "FFCConn:PAD_4P" H 3900 1500 50  0001 C CNN
+F 3 "~" H 3900 1500 50  0001 C CNN
+	1    3900 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 1700 4100 2800
+Wire Wire Line
+	4100 2800 4500 2800
+Wire Wire Line
+	4500 2500 3800 2500
+Wire Wire Line
+	3800 2500 3800 1700
+Wire Wire Line
+	4500 2400 4000 2400
+Wire Wire Line
+	4000 2400 4000 1700
+Wire Wire Line
+	4500 2700 3900 2700
+Wire Wire Line
+	3900 2700 3900 1700
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 60E5038C
+P 6450 2700
+F 0 "J?" H 6530 2742 50  0000 L CNN
+F 1 "Conn_01x05" H 6530 2651 50  0000 L CNN
+F 2 "FFCConn:uxcell_FFC_Connector_1x5_P0" H 6450 2700 50  0001 C CNN
+F 3 "~" H 6450 2700 50  0001 C CNN
+	1    6450 2700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6250 2700
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 60E50393
+P 5650 1600
+F 0 "J?" H 5568 1175 50  0000 C CNN
+F 1 "Conn_01x04" H 5568 1266 50  0000 C CNN
+F 2 "FFCConn:PAD_4P" H 5650 1600 50  0001 C CNN
+F 3 "~" H 5650 1600 50  0001 C CNN
+	1    5650 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 1800 5850 2900
+Wire Wire Line
+	5850 2900 6250 2900
+Wire Wire Line
+	6250 2600 5550 2600
+Wire Wire Line
+	5550 2600 5550 1800
+Wire Wire Line
+	6250 2500 5750 2500
+Wire Wire Line
+	5750 2500 5750 1800
+Wire Wire Line
+	6250 2800 5650 2800
+Wire Wire Line
+	5650 2800 5650 1800
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 60E50CED
+P 8500 2550
+F 0 "J?" H 8580 2592 50  0000 L CNN
+F 1 "Conn_01x05" H 8580 2501 50  0000 L CNN
+F 2 "FFCConn:uxcell_FFC_Connector_1x5_P0" H 8500 2550 50  0001 C CNN
+F 3 "~" H 8500 2550 50  0001 C CNN
+	1    8500 2550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8300 2550
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 60E50CF4
+P 7700 1450
+F 0 "J?" H 7618 1025 50  0000 C CNN
+F 1 "Conn_01x04" H 7618 1116 50  0000 C CNN
+F 2 "FFCConn:PAD_4P" H 7700 1450 50  0001 C CNN
+F 3 "~" H 7700 1450 50  0001 C CNN
+	1    7700 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 1650 7900 2750
+Wire Wire Line
+	7900 2750 8300 2750
+Wire Wire Line
+	8300 2450 7600 2450
+Wire Wire Line
+	7600 2450 7600 1650
+Wire Wire Line
+	8300 2350 7800 2350
+Wire Wire Line
+	7800 2350 7800 1650
+Wire Wire Line
+	8300 2650 7700 2650
+Wire Wire Line
+	7700 2650 7700 1650
+$EndSCHEMATC

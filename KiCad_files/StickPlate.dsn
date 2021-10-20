@@ -1,0 +1,138 @@
+(pcb /Users/yino/Desktop/StickPlate/StickPlate.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.10-1-10_14)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  190075 -90075  129925 -90075  129925 -69925  190075 -69925
+            190075 -90075)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component FFCConn:uxcell_FFC_Connector_1x5_P0
+      (place J2 153500 -80000 front 180 (PN Conn_01x05))
+    )
+    (component FFCConn:PAD_4P
+      (place J1 133500 -80000 front 90 (PN Conn_01x04))
+    )
+  )
+  (library
+    (image FFCConn:uxcell_FFC_Connector_1x5_P0
+      (outline (path signal 50  4550 3000  -4550 3000))
+      (outline (path signal 50  4550 -4900  4550 3000))
+      (outline (path signal 50  -4550 -4900  4550 -4900))
+      (outline (path signal 50  -4550 3000  -4550 -4900))
+      (outline (path signal 100  -1250 492.893  -750 1200))
+      (outline (path signal 100  -1750 1200  -1250 492.893))
+      (outline (path signal 120  -1660 1300  -1660 2500))
+      (outline (path signal 120  3500 -3750  3500 -2250))
+      (outline (path signal 120  -3500 -3750  3500 -3750))
+      (outline (path signal 120  -3500 -2250  -3500 -3740))
+      (outline (path signal 120  3500 1300  3500 500))
+      (outline (path signal 120  1660 1300  3500 1300))
+      (outline (path signal 120  -3500 1300  -3500 500))
+      (outline (path signal 120  -1660 1300  -3500 1300))
+      (outline (path signal 100  2950 -3650  0 -3650))
+      (outline (path signal 100  2950 -2950  2950 -3650))
+      (outline (path signal 100  2450 -2950  2950 -2950))
+      (outline (path signal 100  2450 -2650  2450 -2950))
+      (outline (path signal 100  3050 -2650  2450 -2650))
+      (outline (path signal 100  3050 1200  3050 -2650))
+      (outline (path signal 100  0 1200  3050 1200))
+      (outline (path signal 100  -2950 -3650  0 -3650))
+      (outline (path signal 100  -2950 -2950  -2950 -3650))
+      (outline (path signal 100  -2450 -2950  -2950 -2950))
+      (outline (path signal 100  -2450 -2650  -2450 -2950))
+      (outline (path signal 100  -3050 -2650  -2450 -2650))
+      (outline (path signal 100  -3050 1200  -3050 -2650))
+      (outline (path signal 100  0 1200  -3050 1200))
+      (pin Rect[T]Pad_300x1300_um 5 1000 1850)
+      (pin Rect[T]Pad_300x1300_um 4 500 1850)
+      (pin Rect[T]Pad_300x1300_um 3 0 1850)
+      (pin Rect[T]Pad_300x1300_um 2 -500 1850)
+      (pin Rect[T]Pad_300x1300_um 1 -1000 1850)
+      (pin Rect[T]Pad_1800x2200_um MP -3150 -900)
+      (pin Rect[T]Pad_1800x2200_um MP@1 3150 -900)
+    )
+    (image FFCConn:PAD_4P
+      (pin Rect[T]Pad_1524x2286_um 1 -3810 0)
+      (pin Oval[T]Pad_1524x2286_um 2 -1270 0)
+      (pin Oval[T]Pad_1524x2286_um 3 1270 0)
+      (pin Oval[T]Pad_1524x2286_um 4 3810 0)
+    )
+    (padstack Oval[T]Pad_1524x2286_um
+      (shape (path F.Cu 1524  0 -381  0 381))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_300x1300_um
+      (shape (rect F.Cu -150 -650 150 650))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1524x2286_um
+      (shape (rect F.Cu -762 -1143 762 1143))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1800x2200_um
+      (shape (rect F.Cu -900 -1100 900 1100))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(J1-Pad1)"
+      (pins J2-2 J1-1)
+    )
+    (net "Net-(J1-Pad2)"
+      (pins J2-4 J1-2)
+    )
+    (net "Net-(J1-Pad3)"
+      (pins J2-1 J1-3)
+    )
+    (net "Net-(J1-Pad4)"
+      (pins J2-5 J1-4)
+    )
+    (net "Net-(J2-Pad3)"
+      (pins J2-3)
+    )
+    (class kicad_default "" "Net-(J1-Pad1)" "Net-(J1-Pad2)" "Net-(J1-Pad3)"
+      "Net-(J1-Pad4)" "Net-(J2-Pad3)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
